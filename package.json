@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "now-build": "npm run build",
+    "domain": "now alias https://my-app-h5d8p20xv.now.sh now-demo.sealui.com"
   },
   "dependencies": {
     "vue": "^2.5.17",

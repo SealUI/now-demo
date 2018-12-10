@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "my-app",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"}
+  ],
+  "routes": [
+    {"src": "^/favicon.ico", "dest": "/favicon.ico"},
+    {"src": "^/static/js/(.*)", "dest": "/static/js/$1"},
+    {"src": "^/static/css/(.*)", "dest": "/static/css/$1"},
+    {"src": "^/static/img/(.*)", "dest": "/static/img/$1"},
+    {"src": ".*", "dest": "/index.html"}
+  ]
+}
