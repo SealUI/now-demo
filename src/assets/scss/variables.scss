@@ -1,0 +1,19 @@
+/* Colors
+-------------------------- */
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+
+$--color-primary: #0076FF !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 4c90ff */
+
+$--color-success: #26cb7c !default;
+$--color-warning: #F5A623 !default;
+$--color-danger: #ff4642 !default;
+$--color-info: #909399 !default;
+
+$--background-color-base: #F5F7F9;
+$--color-text: $--color-danger !default;
+
+/* Size
+-------------------------- */
+$--size-base: 14px !default;
