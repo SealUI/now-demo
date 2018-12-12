@@ -27,6 +27,16 @@ textarea,
 button {
   font: inherit;
 }
+i{
+  font-style:normal;
+  padding:0;
+  margin:0
+}
+h1,h2,h3,h4,h5,h6{
+  padding:0;
+  margin:0;
+  font-weight:500
+}
 a {
   &.router-link-exact-active {
     color: #42b983;

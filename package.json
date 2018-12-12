@@ -8,7 +8,8 @@
     "dev": "npm run serve",
     "lint": "vue-cli-service lint",
     "now-build": "npm run build",
-    "domain": "now alias https://my-app-h5d8p20xv.now.sh now-demo.sealui.com"
+    "domain": "now alias https://my-app-h5d8p20xv.now.sh now-demo.sealui.com",
+    "new": "node ./scripts/new.js"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -23,10 +24,12 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "file-save": "^0.2.0",
     "lint-staged": "^7.2.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "terser-webpack-plugin": "^1.1.0",
+    "uppercamelcase": "^3.0.0",
     "vue-template-compiler": "^2.5.17"
   },
   "gitHooks": {

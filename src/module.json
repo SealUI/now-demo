@@ -1,0 +1,7 @@
+{
+  "demo": {
+    "router": "./router/modules/demo.js",
+    "views": "./views/demo/index.vue",
+    "cerateTime": 1544601099867
+  }
+}
