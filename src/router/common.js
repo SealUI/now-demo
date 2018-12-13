@@ -3,7 +3,7 @@ export default [
   // 默认页面
   {
     path: '/',
-    redirect: '/home',
+    redirect: '/emojis',
     hidden: true
   },
   {
