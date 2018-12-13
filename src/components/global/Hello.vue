@@ -3,7 +3,6 @@
     <template v-for="item in tpl">
       <span v-html="item" :key="item"></span>
     </template>
-
   </div>
 </template>
 
@@ -18,8 +17,13 @@ export default {
   props: {
     msg: String
   },
+  computed: {
+    showTpl () {
+      return this.tpl.join('')
+    }
+  },
   mounted () {
-    this.$nextTick(() => {
+    this.$nextTick().then((res) => {
       let _msg = this.msg.split(' ')
       for (let item of _msg) {
         this.tpl.push(`<i>${item}</i>`)
@@ -44,4 +48,5 @@ export default {
       }
     }
   }
+
 </style>

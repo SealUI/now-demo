@@ -6,6 +6,7 @@
   ],
   "routes": [
     {"src": "^/favicon.ico", "dest": "/favicon.ico"},
+    {"src": "^/*.json", "dest": "/$1.json"},
     {"src": "^/static/js/(.*)", "dest": "/static/js/$1"},
     {"src": "^/static/css/(.*)", "dest": "/static/css/$1"},
     {"src": "^/static/img/(.*)", "dest": "/static/img/$1"},

@@ -1,7 +1,7 @@
 <template>
   <div :class="$style.home">
     <div :class="$style.hd">
-      <h1></h1>
+      <h1>👙</h1>
     </div>
     <div :class="$style.bd">
       <Hello msg="🍋 🍊 🍑 🍒 🍎 🍓 🍇 🍌 🍉 🥝 🌽 🌶 🌷 🌹 💋 👙"></Hello>
@@ -18,14 +18,34 @@
 
 export default {
   name: 'home',
+  data () {
+    return {
+    }
+  },
+  filters: {
+    emojiCode: function (v) {
+
+    }
+  },
   components: {
     // HelloWorld
+  },
+  created () {
+  },
+  methods: {
+    fetchData: (apiURL) => {
+
+    }
+  },
+  mounted () {
+    this.$nextTick().then(async () => {
+
+    })
   }
 }
 </script>
 <style lang="scss" module>
   .home{
-    width:100%;
     max-width:800px;
     margin:0 auto;
     border-radius: 4px;
@@ -35,7 +55,6 @@ export default {
     width: 100%;
     margin: auto;
     pointer-events: auto;
-    overflow: hidden;
     background: #fff;
     box-shadow: 0 1px 1px 0 rgba(116, 129, 141, 0.1);
     .hd{

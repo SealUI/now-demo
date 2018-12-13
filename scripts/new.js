@@ -47,6 +47,9 @@ export default {
   methods: {
 
   },
+  computed: {
+
+  },
   // 挂载完成
   mounted () {
     this.$nextTick().then(() => {

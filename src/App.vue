@@ -11,7 +11,6 @@
 <style lang="scss" module>
 #app {
   text-align: center;
-  height: 100%;
   display:flex;
   flex-direction: column
 }

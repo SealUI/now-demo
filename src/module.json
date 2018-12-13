@@ -2,6 +2,11 @@
   "demo": {
     "router": "./router/modules/demo.js",
     "views": "./views/demo/index.vue",
-    "cerateTime": 1544601099867
+    "cerateTime": 1544609629379
+  },
+  "emojis": {
+    "router": "./router/modules/emojis.js",
+    "views": "./views/emojis/index.vue",
+    "cerateTime": 1544684289905
   }
 }
